@@ -1,0 +1,141 @@
+body {
+    font-size: small;
+}
+
+.title {
+    position: absolute;
+    top: 5px;
+    left: 255px;
+    font-size: 12px;
+}
+
+.keyBoard {
+    background: #878c91;
+    padding: 30px 10px 10px 10px;
+    border-radius: 20px;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 460px;
+    cursor: pointer;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.key {
+    width: 30px;
+    height: 20px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background: #636771;
+    text-align: center;
+}
+
+.key1 {
+    width: 30px;
+    height: 20px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background: #FEDD40;
+    text-align: center;
+    color: #636771;
+}
+
+.circleKey {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background: #636771;
+    text-align: center;
+    line-height: 30px;
+}
+
+.tab {
+    width: 40px;
+    height: 30px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background: #636771;
+    text-align: center;
+    line-height: 30px;
+}
+
+.enter {
+    width: 60px;
+    height: 30px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background: #636771;
+    text-align: center;
+    line-height: 30px;
+}
+
+.space {
+    width: 170px;
+    height: 30px;
+    margin-right: 3px;
+    border-radius: 20px;
+    background: #636771;
+    text-align: center;
+    line-height: 30px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column
+}
+
+.bottomArrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.keyArrow {
+    width: 30px;
+    height: 15px;
+    margin-right: 3px;
+    border-radius: 20px;
+    background: #636771;
+    text-align: center;
+}
+
+.keyHide {
+    width: 30px;
+    height: 20px;
+    margin-right: 3px;
+    border-radius: 100%;
+    background: #878c91;
+    text-align: center;
+}
+
+.text {
+    border: 1px solid #878d9c;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.key:hover,
+.keyHide:hover,
+.keyArrow:hover,
+.space:hover,
+.enter:hover,
+.tab:hover,
+.key:hover,
+.circleKey:hover {
+    background-color: #4a4e57;
+}
