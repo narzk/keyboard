@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/keyboard/static/css/main.5533a054.chunk.css",
-    "main.js": "/keyboard/static/js/main.e03202ce.chunk.js",
-    "main.js.map": "/keyboard/static/js/main.e03202ce.chunk.js.map",
-    "runtime-main.js": "/keyboard/static/js/runtime-main.1a75efa4.js",
-    "runtime-main.js.map": "/keyboard/static/js/runtime-main.1a75efa4.js.map",
-    "static/js/2.7301d2bf.chunk.js": "/keyboard/static/js/2.7301d2bf.chunk.js",
-    "static/js/2.7301d2bf.chunk.js.map": "/keyboard/static/js/2.7301d2bf.chunk.js.map",
-    "static/js/3.49565dbf.chunk.js": "/keyboard/static/js/3.49565dbf.chunk.js",
-    "static/js/3.49565dbf.chunk.js.map": "/keyboard/static/js/3.49565dbf.chunk.js.map",
-    "index.html": "/keyboard/index.html",
-    "static/css/main.5533a054.chunk.css.map": "/keyboard/static/css/main.5533a054.chunk.css.map",
-    "static/js/2.7301d2bf.chunk.js.LICENSE.txt": "/keyboard/static/js/2.7301d2bf.chunk.js.LICENSE.txt"
+    "main.css": "/virtual-keyboard/static/css/main.5533a054.chunk.css",
+    "main.js": "/virtual-keyboard/static/js/main.e03202ce.chunk.js",
+    "main.js.map": "/virtual-keyboard/static/js/main.e03202ce.chunk.js.map",
+    "runtime-main.js": "/virtual-keyboard/static/js/runtime-main.a2fe8de8.js",
+    "runtime-main.js.map": "/virtual-keyboard/static/js/runtime-main.a2fe8de8.js.map",
+    "static/js/2.7301d2bf.chunk.js": "/virtual-keyboard/static/js/2.7301d2bf.chunk.js",
+    "static/js/2.7301d2bf.chunk.js.map": "/virtual-keyboard/static/js/2.7301d2bf.chunk.js.map",
+    "static/js/3.49565dbf.chunk.js": "/virtual-keyboard/static/js/3.49565dbf.chunk.js",
+    "static/js/3.49565dbf.chunk.js.map": "/virtual-keyboard/static/js/3.49565dbf.chunk.js.map",
+    "index.html": "/virtual-keyboard/index.html",
+    "static/css/main.5533a054.chunk.css.map": "/virtual-keyboard/static/css/main.5533a054.chunk.css.map",
+    "static/js/2.7301d2bf.chunk.js.LICENSE.txt": "/virtual-keyboard/static/js/2.7301d2bf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a75efa4.js",
+    "static/js/runtime-main.a2fe8de8.js",
     "static/js/2.7301d2bf.chunk.js",
     "static/css/main.5533a054.chunk.css",
     "static/js/main.e03202ce.chunk.js"
