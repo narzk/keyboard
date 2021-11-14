@@ -1,4 +1,3 @@
-import "./App.css";
 import KeyBoard from "./KeyBoard.js";
 
 function App() {

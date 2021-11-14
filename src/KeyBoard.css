@@ -17,7 +17,7 @@ body {
     color: white;
     position: absolute;
     top: 140px;
-    left: 460px;
+    /* left: 460px; */
     cursor: pointer;
 }
 
@@ -121,7 +121,8 @@ body {
     border-radius: 20px;
     padding: 10px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +131,7 @@ body {
 }
 
 .key:hover,
-.keyHide:hover,
+
 .keyArrow:hover,
 .space:hover,
 .enter:hover,
@@ -138,4 +139,15 @@ body {
 .key:hover,
 .circleKey:hover {
     background-color: #4a4e57;
+}
+
+.capsLock{
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: chartreuse;
+    position: absolute;
+    top: 125px;
+    left: 40px;
+
 }

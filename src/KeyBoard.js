@@ -3,7 +3,13 @@ import "./KeyBoard.css";
 
 const KeyBoard = () => {
   const [text, setText] = useState([]);
-  const typeAchar = (input) => setText([...text, input]);
+  const [capslock, setCapsLock] = useState(false);
+
+  const typeAchar = (input) =>
+    capslock
+      ? setText([...text, input.toUpperCase()])
+      : setText([...text, input]);
+  const deleteFunc = () => text.length > 0 && setText(text.slice(0, -1));
   console.log(text.join(""));
   return (
     <div className="container">
@@ -44,7 +50,9 @@ const KeyBoard = () => {
           <div className="key" onClick={() => typeAchar("||")}>
             ||
           </div>
-          <div className="key">del</div>
+          <div className="key" onClick={() => deleteFunc()}>
+            del
+          </div>
         </div>
         <div className="firstRow">
           <div className="circleKey" onClick={() => typeAchar("~")}>
@@ -131,7 +139,10 @@ const KeyBoard = () => {
           </div>
         </div>
         <div className="firstRow">
-          <div className="tab">caps</div>
+          <div className="tab" onClick={() => setCapsLock(!capslock)}>
+            {capslock && <div className="capsLock"></div>}
+            caps
+          </div>
           <div className="circleKey" onClick={() => typeAchar("a")}>
             A
           </div>
@@ -233,6 +244,7 @@ const KeyBoard = () => {
         className="text"
         value={text.join("")}
         onChange={(e) => setText([...e.target.value])}
+        placeholder="type here ..."
       />
     </div>
   );
